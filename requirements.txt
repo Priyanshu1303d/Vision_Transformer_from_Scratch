@@ -1,0 +1,9 @@
+dvc
+matplotlib
+numpy
+torch
+docker
+mlflow
+streamlit
+
+
