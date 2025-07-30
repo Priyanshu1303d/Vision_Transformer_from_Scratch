@@ -2,8 +2,17 @@ dvc
 matplotlib
 numpy
 torch
+torchvision
 docker
 mlflow
 streamlit
 
+jupyter
+notebook
+pyYAML
 
+black
+isort
+black[jupyter]
+
+-e .

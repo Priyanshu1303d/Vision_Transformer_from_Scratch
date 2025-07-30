@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61.0"] # The build tools needed to build your package
+build-backend = "setuptools.build_meta" # The entry point for the build system
+
+
+[project]
+name = "vision_Transformer"
+version = "0.1.0"
+description = "Re-Implementation of Vision Transformer on CIFAR10 dataset"
+authors = [
+    {name  = "Priyanshu" , email = "priaynshu1303d@gmail.com"}
+]
+
+requires-python = ">=3.9"
+
+keywords = ["vision", "transformer", "python"]
+
+readme = "README.md"
+license = { text = "MIT" }
+
+dependencies = [
+    "torch", 
+    "torchvision",
+    "numpy",
+    "tqdm",
+    "docker",
+    "streamlit",
+    "matplotlib"
+    
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Priyanshu1303d/Vision_Transformer_from_Scratch"
+Issues = "https://github.com/Priyanshu1303d/Vision_Transformer_from_Scratch/issues"
+
+[tool.isort]
+# Configure isort to use Black's style
+profile = "black"
+
+# --- NEW: Configure setuptools to find your package if it's in 'src' ---
+[tool.setuptools.packages.find]
+where = ["src"]
