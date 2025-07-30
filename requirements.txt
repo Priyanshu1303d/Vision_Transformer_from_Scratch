@@ -15,4 +15,9 @@ black
 isort
 black[jupyter]
 
+python-box
+beautifulsoup4
+tqdm
+
+
 -e .
