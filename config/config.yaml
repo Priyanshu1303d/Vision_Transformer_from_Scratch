@@ -2,6 +2,12 @@ artifacts_root : artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  train_dir : artifacts/data_ingestion/train
-  test_dir : artifacts/data_ingestion/test
   unzip_dir : artifacts/data_ingestion/unzip_file
+
+data_validation:
+  root_dir: artifacts/data_validation
+  data_set_dir: artifacts/data_ingestion
+  STATUS_FILE : artifacts/data_validation/status.txt
+
+data_transformation:
+  dataset_dir : artifacts/data_ingestion
