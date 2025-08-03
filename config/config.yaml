@@ -11,3 +11,15 @@ data_validation:
 
 data_transformation:
   dataset_dir : artifacts/data_ingestion
+
+
+model_trainer:
+  root_dir : artifacts/model
+  model_ckpt : artifacts/model/trained_model.pkl
+  train_accuracy : artifacts/models/train/train_accuracy.json
+  train_loss : artifacts/models/train/train_loss.json
+  
+model_evaluation:
+  root_dir : artifacts/model_evaluation
+  test_accuracy : artifacts/model_evaluation/test/test_accuracy.json
+  test_loss : artifacts/model_evaluation/test/test_loss.json
