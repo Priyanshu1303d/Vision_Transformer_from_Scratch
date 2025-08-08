@@ -10,7 +10,7 @@ TrainingArguments:
   NUM_HEADS : 8  # Number of multi head attentions
   DEPTH : 8 # before 6 TRANSFORMERS
   MLP_DIM : 768
-  DROP_RATE : 0.1
+  DROPOUT_RATE : 0.1
   WEIGHT_DECAY : 0.01 # ADDED FOR AUG
 
 HyperParameterTuning:
