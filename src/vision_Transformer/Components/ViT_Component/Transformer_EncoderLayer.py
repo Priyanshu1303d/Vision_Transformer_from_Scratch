@@ -23,7 +23,7 @@ class Transformer_Encoder_Layer(nn.Module):
 
         x = self.normalization_layer_1(x)
 
-        x , _ = self.multi_head_attention(x)
+        x , _ = self.multi_head_attention(x , x , x)
         # The MultiheadAttention layer returns two things: the processed data and the attention weights. We only need the data, so we take the first item (x, _ or [0]).
 
         x = x + residual_1

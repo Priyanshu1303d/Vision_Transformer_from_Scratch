@@ -1,6 +1,6 @@
 TrainingArguments:
   BATCH_SIZE : 128
-  EPOCHS : 60 # BEFORE 25
+  EPOCHS : 25 # BEFORE 25
   LEARNING_RATE : 3e-4
   PATCH_SIZE : 4 # 4X4
   NUM_CLASSES : 10 # 10 Classes airplane , bus etc
