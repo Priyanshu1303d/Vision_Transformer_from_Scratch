@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License"/>
 </p>
 
+
 #  Vision Transformer (ViT) — From Scratch
 
 A **complete, from-scratch implementation** of the [Vision Transformer (ViT)](https://arxiv.org/abs/2010.11929) paper (*"An Image is Worth 16x16 Words"*) using PyTorch, trained and evaluated on the **CIFAR-10** dataset. This project follows a modular, production-grade ML pipeline architecture with configuration management, structured logging, data versioning, and a Streamlit-based inference UI.
