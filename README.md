@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License"/>
 </p>
 
-# 🔬 Vision Transformer (ViT) — From Scratch
+#  Vision Transformer (ViT) — From Scratch
 
 A **complete, from-scratch implementation** of the [Vision Transformer (ViT)](https://arxiv.org/abs/2010.11929) paper (*"An Image is Worth 16x16 Words"*) using PyTorch, trained and evaluated on the **CIFAR-10** dataset. This project follows a modular, production-grade ML pipeline architecture with configuration management, structured logging, data versioning, and a Streamlit-based inference UI.
 
@@ -271,9 +271,9 @@ The `research/` directory contains Jupyter notebooks documenting the full develo
 |----------|-------------|
 | **Deep Learning** | PyTorch, TorchVision |
 | **Data** | CIFAR-10, NumPy, Matplotlib |
-| **MLOps** | DVC, MLflow |
+| **MLOps** | DVC|
 | **App** | Streamlit |
-| **Tooling** | Black, isort, python-box, PyYAML |
+| **Tooling** | python-box, PyYAML |
 | **Packaging** | setuptools, pyproject.toml |
 | **Infra** | Docker |
 
