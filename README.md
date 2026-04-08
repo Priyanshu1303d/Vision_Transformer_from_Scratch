@@ -167,7 +167,7 @@ Vision_Transformer_from_Scratch/
 
 ### Prerequisites
 
-- Python ≥ 3.9
+- Python ≥ 3.10
 - CUDA-compatible GPU (recommended)
 
 ### Installation
